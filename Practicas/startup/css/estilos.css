@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px; }
+
+header {
+  background: url(../img/fondoazul.png);
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; }
+  header .contenedor_logo_menu {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .contenedor_logo_menu .logo a {
+      display: block; }
+      header .contenedor_logo_menu .logo a img {
+        vertical-align: top; }
+    header .contenedor_logo_menu .menu {
+      text-align: right;
+      margin-top: 30px;
+      line-height: 50px; }
+      header .contenedor_logo_menu .menu a {
+        color: #fff;
+        margin-left: 60px;
+        font-size: 18px;
+        text-decoration: none; }
+        header .contenedor_logo_menu .menu a:hover {
+          text-decoration: underline; }
+  header .textos {
+    color: #fff;
+    text-align: center;
+    margin: 100px 0 30px; }
+    header .textos h2 {
+      font-size: 35px;
+      list-style: 35px;
+      margin-bottom: 30px; }
+    header .textos h3 {
+      font-size: 25px;
+      list-style: 25px;
+      margin-bottom: 60px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 100; }
+    header .textos .contenedor-btns a {
+      border-radius: 4px;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 12px 0;
+      width: 235px;
+      display: inline-block;
+      text-align: center;
+      margin: 50px 10px 150px;
+      text-decoration: none; }
+      header .textos .contenedor-btns a:hover {
+        text-decoration: none;
+        background: #fff;
+        color: #4f4f4f; }
+
+.main .caracteristicas {
+  padding: 50px 0; }
+  .main .caracteristicas h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000; }
+  .main .caracteristicas .caracteristicas {
+    text-align: center; }
+    .main .caracteristicas .caracteristicas .icono {
+      vertical-align: top;
+      margin-bottom: 5px; }
+    .main .caracteristicas .caracteristicas .primera_linea {
+      font-weight: 700;
+      margin-bottom: 30px;
+      font-style: 20px; }
+    .main .caracteristicas .caracteristicas .parrafo {
+      margin: 0px 10px;
+      margin-bottom: 30px;
+      line-height: 28px; }
+.main .fotos {
+  background: url(../img/Textura.png);
+  margin-bottom: 40px; }
+  .main .fotos .foto {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .main .fotos .foto .thumb img {
+      border-radius: 10px;
+      width: 100%;
+      vertical-align: top; }
+    .main .fotos .foto .titulo {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300; }
+      .main .fotos .foto .titulo.azul {
+        color: #33BEFF; }
+      .main .fotos .foto .titulo.naranja {
+        color: #33BEFF; }
+    .main .fotos .foto .parrafo {
+      line-height: 28px; }
+    .main .fotos .foto .derecha {
+      text-align: right; }
+.main .clientes {
+  padding: 30px 0; }
+  .main .clientes .titulo {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 50px; }
+.main .precios {
+  margin-top: 40px;
+  background: url(../img/Textura.png);
+  padding: 30px 0;
+  text-align: center; }
+  .main .precios .titulo {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 50px; }
+  .main .precios .precio .btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px 0px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100px;
+    border: 1px solid #33BEFF;
+    background: #fff; }
+    .main .precios .precio .btn:hover {
+      background: url(../img/fondoazul.png); }
+.main .reviews {
+  margin-top: 40px;
+  padding: 30px 0;
+  text-align: center; }
+  .main .reviews .titulo {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 30px; }
+  .main .reviews .cliente img {
+    margin: 50px 0; }
+
+footer {
+  background: url(../img/Textura.png); }
+  footer .direccion h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin: 5px 0px; }
+  footer .direccion h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000;
+    margin: 5px 0px; }
+  footer .social {
+    background: #fff;
+    text-align: center; }
+    footer .social a img {
+      margin: 22px 50px; }
+
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  header .contenedor_logo_menu .menu {
+    text-align: center; }
+    header .contenedor_logo_menu .menu a {
+      margin: 0 20px; } }
+
+/*# sourceMappingURL=estilos.css.map */

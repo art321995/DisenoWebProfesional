@@ -1,0 +1,19 @@
+@keyframes colores{
+    from{
+        background:  #9eb3c2;}
+        to {background:  #21295c;}
+    
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background: #9eb3c2;
+    animation-name: colores;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
